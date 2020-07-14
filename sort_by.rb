@@ -1,10 +1,10 @@
-def sort(array)
+def sort_by(array)
   c = 0
   (0..array.length - 1).each do
     array[0...-1].each.with_index do |_, i|
       left = array[i]
       right = array[i + 1]
-      if left > right
+      if yield(left, right).positive?
         array[i] = right
         array[i + 1] = left
         c += 1
@@ -15,4 +15,8 @@ def sort(array)
   array
 end
 
-puts sort([4, 3, 78, 2, 0, 2])
+res = sort_by(%w[hi hello hey]) do |left, right|
+  left.length - right.length
+end
+
+puts res

@@ -53,7 +53,7 @@ Lastly run either of the commands listed in the getting started section above.
 
 - Github: [@descholar-ceo](https://github.com/descholar-ceo)
 - Twitter: [@descholar3](https://twitter.com/descholar3)
-- Linkedin: [MUGIRASE Emmanuel](https://github.com/descholar-ceo/accommodations-directory/blob/master/linkedin.com/in/mugirase-emmanuel-a90b49143)
+- Linkedin: [MUGIRASE Emmanuel](linkedin.com/in/mugirase-emmanuel-a90b49143)
 
 👤 **Mark Rode**
 

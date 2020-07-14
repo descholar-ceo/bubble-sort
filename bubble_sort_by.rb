@@ -1,5 +1,5 @@
-def sort_by(array)
-  c = 0
+def bubble_sort_by(array)
+  counter = 0
   (0..array.length - 1).each do
     array[0...-1].each.with_index do |_, i|
       left = array[i]
@@ -7,16 +7,16 @@ def sort_by(array)
       if yield(left, right).positive?
         array[i] = right
         array[i + 1] = left
-        c += 1
+        counter += 1
       end
     end
-    c.zero? || array
+    counter.zero? || array
   end
   array
 end
 
-res = sort_by(%w[hi hello hey]) do |left, right|
+res = bubble_sort_by(%w[hi hello hey]) do |left, right|
   left.length - right.length
 end
 
-puts res
+p res

@@ -1,5 +1,5 @@
-def sort(array)
-  c = 0
+def bubble_sort(array)
+  counter = 0
   (0..array.length - 1).each do
     array[0...-1].each.with_index do |_, i|
       left = array[i]
@@ -7,12 +7,13 @@ def sort(array)
       if left > right
         array[i] = right
         array[i + 1] = left
-        c += 1
+        counter += 1
       end
     end
-    c.zero? || array
+    counter.zero? || array
   end
   array
 end
 
-puts sort([4, 3, 78, 2, 0, 2])
+# example
+p bubble_sort([4, 3, 78, 2, 0, 2])

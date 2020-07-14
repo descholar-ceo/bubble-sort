@@ -17,9 +17,15 @@ A sorting algorithm that takes an array of elements as input, each element is th
 
 ## Getting Started
 
-**Open the live demo link above and run either 'ruby bubble_sort.rb' or 'ruby bubble_sort_by.rb'.**
-
-To get a local copy up and running follow these simple example steps.
+**Open the live demo link above and run either of the code demonstrations below**
+ 
+```bash
+ruby bubble_sort.rb
+```
+or
+```bash
+ruby bubble_sort_by.rb
+``` 
 
 ### Prerequisites
 
@@ -27,15 +33,19 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
-### Install
+To run this project locally, please ensure you have Ruby installed on your machine, then clone this repository by running.
 
-### Usage
+```bash
+git clone https://github.com/descholar-ceo/bubble-sort
+```
 
-### Run tests
+After cloning run
 
-### Deployment
+```bash 
+cd bubble-sort
+```
 
-
+Lastly run either of the commands listed in the getting started section above.
 
 ## Authors
 

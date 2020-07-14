@@ -12,7 +12,7 @@ A sorting algorithm that takes an array of elements as input, each element is th
 
 ## Live Demo
 
-[Live Demo Link (repl.it)](https://repl.it/@descholarceo/bubble-sort#README.md)
+[Live Demo Link (repl.it)](https://repl.it/@descholarceo/bubble-sort)
 
 
 ## Getting Started

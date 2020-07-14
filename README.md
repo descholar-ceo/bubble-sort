@@ -2,7 +2,7 @@
 
 > Implementation of bubble_sort and bubble sort by algorithms as outlined [here](https://github.com/TheOdinProject/curriculum/blob/master/ruby_programming/archive/basic_ruby/project_advanced_building_blocks.md#assignment-1) by the Odin Project.
 
-![screenshot](./bubble_sort.gif)
+![screenshot](./bubble-sort.gif)
 
 A sorting algorithm that takes an array of elements as input, each element is then compared to the one next to it and they are swapped if the one on the left is larger than the one on the right. This continues until the array is eventually sorted.
 
